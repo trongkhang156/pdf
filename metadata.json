@@ -1,0 +1,6 @@
+{
+  "name": "Bộ Dịch PDF Đa Ngôn Ngữ",
+  "description": "Ứng dụng nhập tệp PDF chứa nhiều ngôn ngữ khác nhau và tự động dịch toàn bộ nội dung sang tiếng Việt chất lượng cao bằng Gemini API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
