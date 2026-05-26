@@ -414,9 +414,7 @@ export function TranslationResults({ result, fileName, selectedFile, extractedIm
 <body>
   <div class="print-container">
     <div class="system-banner">
-      <div>
-        <strong>Văn Bản Việt Pro</strong> &bull; Trình dịch thuật bảo toàn định dạng cũ
-      </div>
+     
       <button class="btn-print" onclick="window.print()">Khởi động hộp thoại in / Xuất PDF</button>
     </div>
     
@@ -437,9 +435,7 @@ export function TranslationResults({ result, fileName, selectedFile, extractedIm
       ${processedHtml}
     </div>
     
-    <div class="print-footer">
-      Dịch thuật từ động dạng bảo lưu cấu trúc &bull; Văn Bản Việt Pro &bull; Bảo mật thông tin tuyệt đối
-    </div>
+   
   </div>
   
   <script>
@@ -502,7 +498,7 @@ export function TranslationResults({ result, fileName, selectedFile, extractedIm
           <button
             onClick={handlePrintPdf}
             className="px-4 py-2 bg-gradient-to-r from-amber-300 to-amber-500 hover:from-amber-450 hover:to-amber-550 text-black font-extrabold rounded-lg transition-all text-xs flex items-center gap-1.5 shadow-md shadow-amber-500/10 cursor-pointer"
-            title="Xuất bản dịch chuẩn dạng PDF giữ nguyên format cũ"
+            title="Xuất"
           >
             <Printer size={13} />
             <span>Xuất PDF / Bản In</span>
@@ -593,7 +589,7 @@ export function TranslationResults({ result, fileName, selectedFile, extractedIm
             <div className="lg:col-span-5 flex flex-col space-y-2">
               <div className="flex items-center justify-between px-2">
                 <span className="text-[11px] font-bold text-gray-400 uppercase tracking-widest flex items-center gap-1.5">
-                  📁 File gốc cũ (Bảo lưu hình ảnh/đồ thị gốc)
+                  📁 File gốc cũ
                 </span>
               </div>
               {pdfUrl ? (
@@ -618,7 +614,7 @@ export function TranslationResults({ result, fileName, selectedFile, extractedIm
               </div>
               <div className="bg-white text-[#1e293b] rounded-2xl p-6 md:p-10 shadow-2xl border border-gray-200 h-[650px] md:h-[750px] overflow-y-auto relative styled-scrollbar">
                 <div className="absolute top-4 right-6 text-[9px] font-mono text-gray-300 font-bold uppercase tracking-widest">
-                  Tiếng Việt &bull; Format Chuẩn
+                 
                 </div>
                 <div 
                   ref={docRef}
@@ -661,7 +657,7 @@ export function TranslationResults({ result, fileName, selectedFile, extractedIm
         {viewMode === "original" && (
           <div className="max-w-4xl mx-auto space-y-2 animate-fadeIn">
             <div className="text-[11px] font-bold text-gray-400 uppercase tracking-widest px-2">
-              File gốc gốc nguyên vẹn (Đầy đủ tất cả định dạng, hình minh họa)
+              File gốc
             </div>
             {pdfUrl ? (
               <iframe
