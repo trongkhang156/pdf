@@ -187,7 +187,9 @@ export default function App() {
           </div>
         )}
       </main>
-
+<footer className="w-full py-4 text-center border-t border-white/5 bg-[#0D0D0F] text-[10px] text-gray-500">
+      
+      </footer>
     
     </div>
   );
