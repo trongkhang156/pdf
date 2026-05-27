@@ -188,10 +188,7 @@ export default function App() {
         )}
       </main>
 
-      {/* Simplified, Clean Footer */}
-      <footer className="w-full py-4 text-center border-t border-white/5 bg-[#0D0D0F] text-[10px] text-gray-500">
-        <div>Văn Bản Việt Pro &bull; Google Gemini Intelligence &bull; An toàn bảo mật SSL</div>
-      </footer>
+    
     </div>
   );
 }
