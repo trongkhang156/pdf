@@ -158,7 +158,7 @@ export default function App() {
                     className="w-full py-3.5 bg-gradient-to-r from-amber-300 to-amber-500 text-black font-extrabold rounded-xl hover:from-amber-450 hover:to-amber-550 transition-all duration-300 flex items-center justify-center gap-2 transform active:scale-[0.99] cursor-pointer text-sm shadow-lg shadow-amber-500/10"
                   >
                     <Sparkles size={16} />
-                    Dịch sang Tiếng Việt ngay
+                    Dịch
                   </button>
                 )}
               </div>
